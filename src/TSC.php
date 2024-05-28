@@ -69,7 +69,7 @@ class TSC extends TSCBase implements TSCInterface
      * @var int Printing density
      */
     private $density;
-    
+
     /**
      * @var string The path to the TSC Python driver
      */

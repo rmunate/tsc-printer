@@ -62,7 +62,7 @@ __density = 8
 # Cargar Condfiguracion Opcional Desde Argumentos.
 if hasattr(request, 'size') and request.size is not None:
     __size = request.size
-    
+
 if hasattr(request, 'margins') and request.margins is not None:
     __margins = request.margins
 
@@ -141,7 +141,7 @@ try:
     # Descargar archivo DRAM
     tsclibrary.downloadpcxW(download_path, f"{randomId}.PCX")
 
-    # Cargar PCX en la impresora 
+    # Cargar PCX en la impresora
     tsclibrary.sendcommandW(f"PUTPCX {__shaftX},{__shaftY},\"{randomId}.PCX\"")
 
     # Imprimir

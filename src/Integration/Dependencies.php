@@ -17,7 +17,7 @@ return [
 
     /**
      * PYTHON
-     * 
+     *
      * Install version 3 or higher.
      * << https://www.python.org/ >>
      */
@@ -25,7 +25,7 @@ return [
 
     /**
      * PDF2IMAGE
-     * 
+     *
      * Install the dependency using:
      * << pip install pdf2image Pillow >>
      * Dependency for Python
@@ -34,7 +34,7 @@ return [
 
     /**
      * POPPLER
-     * 
+     *
      * Install the dependency:
      * https://github.com/oschwartz10612/poppler-windows/releases
      * Then, create an environment variable in the "path" for the poppler bin folder.

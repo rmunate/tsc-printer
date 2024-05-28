@@ -6,7 +6,7 @@ class Python
 {
     /**
      * Check if Python is installed on the machine.
-     * 
+     *
      * @return bool Returns true if Python is installed, otherwise false.
      */
     public static function isInstalled()
@@ -28,9 +28,9 @@ class Python
 
     /**
      * Check if a Python library is installed.
-     * 
+     *
      * @param string $name The name of the Python library to check.
-     * 
+     *
      * @return bool Returns true if the library is installed, otherwise false.
      */
     public static function library(string $name)

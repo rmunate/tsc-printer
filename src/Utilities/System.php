@@ -11,7 +11,7 @@ class System
 {
     /**
      * Check and update dependencies for TSC printer management.
-     * 
+     *
      * @throws TSCException Throws an exception if dependencies are not met.
      */
     public static function dependencies()

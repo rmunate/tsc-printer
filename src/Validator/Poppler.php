@@ -6,7 +6,7 @@ class Poppler
 {
     /**
      * Check if pdftoppm utility is installed.
-     * 
+     *
      * @return bool Returns true if pdftoppm is installed, otherwise false.
      */
     public static function isInstalled()
@@ -21,7 +21,7 @@ class Poppler
             return (strpos($output, 'pdftoppm') !== false);
 
         } catch (\Throwable $th) {
-            
+
             return false;
         }
     }

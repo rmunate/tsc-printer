@@ -10,9 +10,9 @@ class TSCBase
 {
     /**
      * Initialize the service indicating the printer to use.
-     * 
+     *
      * @param string $name The name of the printer.
-     * 
+     *
      * @return static
      * @throws TSCException Throws an exception if no valid printer name is defined.
      */
